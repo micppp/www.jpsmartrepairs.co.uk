@@ -81,12 +81,6 @@ body {
   float: left;
 }
 
-@media only screen and (min-width: 768px) {
-  .site-header__logo > img {
-    width: 90px;
-  }
-}
-
 .site-navigation-list {
   margin: 0;
   padding: 0;
@@ -227,4 +221,10 @@ body {
   padding: 0.75rem 0;
   text-align: center;
   font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .site-header__logo img {
+    width: 90px;
+  }
 }
