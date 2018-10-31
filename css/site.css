@@ -82,7 +82,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .site-header__logo {
+  .site-header__logo > img {
     width: 90px;
   }
 }
